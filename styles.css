@@ -38,3 +38,13 @@ h1{
 .navbar li{
     float: left;
 }
+#heading {
+    display: flex;
+}
+h3{
+    text-align: center;
+
+}
+#picture1{
+    
+}
