@@ -70,4 +70,6 @@ display: flex; ;
         box-shadow: 5px 5px 5px #0e78c4;
       }
       
-      
+      input{
+        background-color: #A7B49E;
+      }
