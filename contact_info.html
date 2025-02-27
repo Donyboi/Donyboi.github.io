@@ -9,6 +9,8 @@
 <body>
     <div id="heading"> 
         <img id="picture" src="logo.png" alt="logo" width="200" height="200">
+        <br>
+        <br>
         <h1 id="myHeader">Contacts</h1>
         
       </div>
@@ -19,11 +21,64 @@
 
     <li><a href="project.html"> Projects </a></li>
    
-    <li><a href="contact_info.html"> Contact </a></li>
+    <li><a href="contact_info.html"> Contact  </a></li>
   </ul>
-  </nav> 
+  </nav>
 <main>
+    <form
+      action="https://form-to-email.steam-center.workers.dev/"
+      method="post">
     
+
+    <input name="send-to" value="djean2@brooklynsteamcenter.org" hidden>
+
+      <label> first name</label>
+      <br>
+      <input type="text" required name="first_name">
+      <br>
+      <label> last name</label>
+      <br>
+      <input type="text" required name="last_name">
+      <br>
+      <label> Email</label>
+      <br>
+      <input type="email" required name="email">
+      <br>
+      <label>Comments</label> 
+      <br>
+      <textarea required></textarea>
+      <br>
+      <label>phone number</label>
+      <br>
+      <input type="tel" required name="phone">
+      <br>
+      <p>Rate my website</p>
+      <input type="radio" name="rate_me" value="5">
+      <label>5</label>
+      <br>
+      <input type="radio" name="rate_me" value="4">
+      <label>4</label>
+      <br>
+      <input type="radio" name="rate_me" value="3">
+      <label>3</label>
+      <br>
+      <input type="radio" name="rate_me" value="2">
+      <label>2</label>
+      <br>
+      <input type="radio" name="rate_me" value="1">
+      <label>1</label>
+      <br>
+      <label>Comments</label>
+      <br>
+      <textarea name="comments" required></textarea>
+      <br>
+      <input type="submit">
+      <input type="reset">
+
+
+
+    </form>
+
 </main>
 </body>
 

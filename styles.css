@@ -38,8 +38,8 @@ h1{
 .navbar li{
     float: left;
 }
-#heading {
-    display: flex;
+.heading {
+    display: block;
 }
 h3{
     text-align: center;
