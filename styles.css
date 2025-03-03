@@ -73,3 +73,12 @@ display: flex; ;
       input{
         background-color: #A7B49E;
       }
+.mail {
+    display: flex;
+    align-items: flex-start;
+}
+
+.phone {
+    display: flex;
+    align-items: flex-start;
+}
