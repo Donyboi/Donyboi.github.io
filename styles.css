@@ -1,78 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-body{
+body {
     margin: 0px;
     background-color: #5C7285;
     color: #A7B49E;
     font-family: "Oswald", serif;
- 
+
 }
-main{
+
+main {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 hr {
     border-color: #a0b5c6;
     border-width: 0px;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.navbar ul{
+
+.navbar ul {
     list-style-type: none;
     background-color: #cfcdb5;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
-.navbar a{
-    color:#4075a3;
+
+.navbar a {
+    color: #4075a3;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: #A7B49E;
 }
-.navbar li{
+
+.navbar li {
     float: left;
 }
+
 .heading {
     display: block;
 }
-h3{
+
+h3 {
     text-align: center;
 
 }
-.project{
-display: flex; ;
+
+.project {
+    display: flex;
+    ;
 }
 
-.project > p{
+.project>p {
     margin-left: 10px;
 
 }
 
 
-.project2{
-    display: flex; ;
-    
-    }
+.project2 {
+    display: flex;
+    ;
+
+}
 
 
-    
-    .project2 > p{
-        margin-left: 10px;
-    }
 
-    .navbar:active {
-        box-shadow: 5px 5px 5px #0e78c4;
-      }
-      
-      input{
-        background-color: #A7B49E;
-      }
+.project2>p {
+    margin-left: 10px;
+}
+
+.navbar:active {
+    box-shadow: 5px 5px 5px #0e78c4;
+}
+
+input {
+    background-color: #A7B49E;
+}
+
 .mail {
     display: flex;
     align-items: flex-start;
@@ -81,4 +94,25 @@ display: flex; ;
 .phone {
     display: flex;
     align-items: flex-start;
+}
+
+.project3 {
+    display: flex;
+    ;
+
+}
+
+.project3>p {
+    margin-left: 10px;
+
+}
+
+.project3 img {
+    border-radius: 10px;
+}
+.project2 img {
+    border-radius: 10px;
+}
+.project img {
+    border-radius: 10px;
 }
