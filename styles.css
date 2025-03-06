@@ -63,6 +63,7 @@ h3 {
 .project>p {
     margin-left: 10px;
 
+
 }
 
 
@@ -76,6 +77,7 @@ h3 {
 
 .project2>p {
     margin-left: 10px;
+    
 }
 
 .navbar:active {
@@ -115,4 +117,74 @@ input {
 }
 .project img {
     border-radius: 10px;
+}
+#project img{
+    width: 100%;
+}
+
+#project2 img{
+    width: 100%;
+}
+
+#project3 img{
+    width: 100%;
+}
+
+.project3{
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    #project {
+        flex-direction: column-reverse;
+    
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .project {
+        flex-direction: column;
+    
+    }
+    .project img {
+        width:100%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #project2 {
+        flex-direction: column-reverse;
+    
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .project2 {
+        flex-direction: column;
+    
+    }
+    .project2 img {
+        width:100%
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #project3 {
+        flex-direction: column-reverse;
+    
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .project3 {
+        flex-direction: column;
+    
+    }
+    .project3 img {
+        width:100%
+    }
 }
