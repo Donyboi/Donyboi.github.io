@@ -73,6 +73,10 @@ h3 {
 
 }
 
+img {
+    max-width: 100%;
+}
+
 
 
 .project2>p {
@@ -133,7 +137,9 @@ input {
 .project3{
     flex-direction: column;
 }
-
+.intro {
+    text-align: center;
+}
 @media screen and (max-width: 600px) {
     #project {
         flex-direction: column-reverse;
@@ -171,6 +177,8 @@ input {
     }
 }
 
+
+
 @media screen and (max-width: 600px) {
     #project3 {
         flex-direction: column-reverse;
@@ -187,8 +195,23 @@ input {
     .project3 img {
         width:100%
     }
-}
+    /* @media screen and (max-width: 600px)  */
+        #project4 {
+            flex-direction: column-reverse;
+        
+        }
+        nav {
+            flex-direction: column;
+        }
+    
+        .project3 {
+            flex-direction: column;
+        
+        }
+        .project3 img {
+            width:100%
+        }
+    
+    }
 
-.intro {
-    text-align: center;
-}
+/* } */
