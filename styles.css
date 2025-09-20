@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
-    background: linear-gradient(135deg, #FFF0CE 60%, #F9EEF5 100%);
-    color: #38262E;
+    background: linear-gradient(135deg, #FDF6F0 60%, #ECEAF4 100%);
+    color: #3A2C35;
     font-family: "DM Serif Text", serif;
     margin: 0;
     padding: 0;
@@ -10,35 +10,43 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
+.picture {
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 24px rgba(60,40,50,0.11);
+    background: #ECEAF4;
+}
+
+
 h1 {
     text-align: center;
     margin: 40px 0 28px 0;
     font-size: 2.7em;
     letter-spacing: .5px;
     font-weight: 600;
-    color: #BE649C;
+    color: #2C3E50;
     background: none;
-    text-shadow: 0 2px 18px rgba(225,175,198,0.08);
+    text-shadow: 0 2px 18px rgba(200,170,190,0.08);
 }
 
-/* Navigation Bar */
+
 .navbar {
     position: sticky;
     top: 0;
     width: 100%;
-    background: rgba(86,130,177,0.96);
-    box-shadow: 0 4px 12px rgba(56,38,46,0.13);
+    background: rgba(120,150,180,0.94);
+    box-shadow: 0 4px 12px rgba(60,40,50,0.12);
     z-index: 15;
-    backdrop-filter: blur(2px);
-    border-bottom: 2px solid #E1AFC6;
+    backdrop-filter: blur(3px);
+    border-bottom: 2px solid #D8BFD8;
 }
 
 .navbar ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -48,55 +56,55 @@ h1 {
     display: inline-block;
 }
 
-/* Navbar links */
 .navbar a {
-    color: #fff;
+    color: #2F3B4A;
     text-decoration: none;
-    padding: 15px 32px;
-    border-radius: 8px;
+    padding: 14px 30px;
+    border-radius: 10px;
     font-size: 1.1em;
     font-family: "DM Serif Text", serif;
     letter-spacing: .2px;
     transition: background 0.25s, color 0.25s, box-shadow 0.21s;
 }
 .navbar a:hover, .navbar a:focus {
-    background: #BE649C linear-gradient(90deg,#F9EEF5 27%, #BE649C 90%);
-    color: #38262E;
-    box-shadow: 0 2px 14px rgba(190,100,156,0.11);
+    background: linear-gradient(90deg,#ECEAF4 27%, #37404e 90%);
+    color: #2C3E50;
+    box-shadow: 0 2px 14px rgba(180,130,160,0.12);
     outline: none;
 }
 
-/* Utility Text Classes */
-.text-white { color: #fff; }
-#heading, .color-pink { color: #BE649C; }
-.text-pink { border-color: #BE649C; }
 
-/* Floating Box */
+.text-white { color: #fff; }
+#heading, .color-pink { color: #CBAACB; }
+.text-pink { border-color: #CBAACB; }
+
+
 .div.fixed {
     position: fixed;
     bottom: 24px;
     right: 24px;
     width: 320px;
-    border: 2.5px solid #F9EEF5;
-    background: #FFF0CE;
-    box-shadow: 0 2px 20px rgba(225,175,198,0.14);
+    border: 2.5px solid #ECEAF4;
+    background: #FDF6F0;
+    box-shadow: 0 2px 20px rgba(200,170,190,0.14);
     padding: 16px 14px 16px 18px;
     border-radius: 24px;
 }
 
-/* Images */
+
 .no_img {
     width: 360px;
     padding: 6px;
-    border: 3px solid #BE649C;
+    border: 3px solid #CBAACB;
     border-radius: 32px;
-    box-shadow: 0 4px 24px rgba(56,38,46,0.11);
-    background: #F9EEF5;
+    box-shadow: 0 4px 24px rgba(60,40,50,0.11);
+    background: #ECEAF4;
     margin: 12px auto;
 }
 
+
 button {
-    background: linear-gradient(90deg, #BE649C 70%, #F9EEF5 100%);
+    background: linear-gradient(90deg, #CBAACB 70%, #ECEAF4 100%);
     color: #fff;
     font-family: "DM Serif Text", serif;
     font-size: 1.07em;
@@ -106,51 +114,51 @@ button {
     cursor: pointer;
     margin: 12px 0;
     transition: font-size 0.14s, background 0.22s, color 0.22s, box-shadow 0.17s;
-    box-shadow: 0 2px 8px rgba(225,175,198,0.09);
+    box-shadow: 0 2px 8px rgba(200,170,190,0.09);
 }
 button:hover, button:focus {
     font-size: 1.12em;
-    background: #fff0ce;
-    color: #BE649C;
-    box-shadow: 0 2px 20px #E1AFC6;
+    background: #FDF6F0;
+    color: #CBAACB;
+    box-shadow: 0 2px 20px #D8BFD8;
     outline: none;
 }
 button:active {
-    background: #F9EEF5;
-    color: #38262E;
+    background: #ECEAF4;
+    color: #3A2C35;
 }
 
-/* Hover containers */
+
 p:hover, h1:hover, a:hover, h2:hover, li:hover, button:hover {
-    background: #F9EEF5;
+    background: #ECEAF4;
     transition: background 0.2s;
 }
 
-/* Contacts section */
+
 .contacts {
     text-align: center;
     margin: 24px 0;
 }
 
-/* Links in pink theme */
+
 .pink a {
-    color: #BE649C;
+    color: #CBAACB;
     text-decoration: none;
     font-family: "DM Serif Text", serif;
     transition: color 0.22s;
 }
 .pink a:hover, .pink a:focus {
-    color: #E1AFC6;
+    color: #D8BFD8;
 }
 
-/* Utility center class */
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Responsive design for mobile */
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 1.26em;
@@ -189,3 +197,9 @@ p:hover, h1:hover, a:hover, h2:hover, li:hover, button:hover {
     }
 }
 
+#heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
